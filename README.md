@@ -5,7 +5,7 @@ Nous vous proposons d'étudier quelques méthodes SMC (principalement développ�
 
 **Table of contents**
 1. [Technologies](#technologies)
-2. [Eexamples](#examples)
+2. [Examples](#examples)
 3. [Sources](#sources)
 
 
@@ -20,6 +20,9 @@ Avec, $\omega_t \sim \mathcal{N}(0,W)$
 
 $$y_t = \frac{x^2_t}{20} + \nu_t$$
 Avec, $\nu_t \sim \mathcal{N}(0,V)$
+
+
+![comparaison-PLS-SIR-STORVIK](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/6e573136-db0a-439f-9645-98915e31b394)
 
 
 ### Sources
