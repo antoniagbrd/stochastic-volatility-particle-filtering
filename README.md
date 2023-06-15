@@ -24,7 +24,8 @@ Avec, $\nu_t \sim \mathcal{N}(0,V)$
 
 ### 2.1. First approach, assuming the parameters are known
 
-We apply a simple SIR with $\alpha$=0.5, $\beta$=25, $\gamma$=8, V=5 et $W=1$ supposed known.
+We apply a simple SIR with $\alpha$=0.5, $\beta$=25, $\gamma$=8, $V=5$ et $W=1$ supposed known.
+
 ![stocha-param_connus](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/c61e594c-379f-4cf4-9906-5412fec14a56)
 
 ### 2.2. Then, assuming the parameters are unknown
