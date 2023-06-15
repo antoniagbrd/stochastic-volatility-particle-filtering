@@ -19,7 +19,7 @@ We have discussed about three benchmark models : a linear model, the Kitagawa's 
 $$x_{t} = \alpha + \beta x_{t-1}+\omega_{t}$$
 Avec, $\omega_t \sim \mathcal{N}(0,W)$
 
-$$y_t = y_{t} = \exp\left(\frac{x_{t}}{2}\right) \nu_{t}$$
+$$y_t = \exp\left(\frac{x_{t}}{2}\right) \nu_{t}$$
 Avec, $\nu_t \sim \mathcal{N}(0,V)$
 
 ### 2.1. First approach, assuming the parameters are known
