@@ -11,14 +11,16 @@ Nous vous proposons d'étudier quelques méthodes SMC (principalement développ�
 
 ### Technologies 
 
-$a = b^2$
 ### Sereval examples 
 
 We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). There is a 
 
 $$ x_{t} = \alpha x_{t-1} + \beta \frac{x_{t-1}}{1+x^{2}_{t-1}} + \gamma \cos(1.2(t-1)) + \omega_{t}$$
 Avec, $\omega_{t} \sim \mathcal{N}(0,W)$
+
 $$ y_{t} = \frac{x^2_t}{20} + \nu_{t}$$
 Avec, $\nu_{t} \sim \mathcal{N}(0,V)$
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 ### Sources
