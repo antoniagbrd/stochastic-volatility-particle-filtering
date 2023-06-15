@@ -23,11 +23,17 @@ Avec, $\nu_t \sim \mathcal{N}(0,V)$
 
 ### 2.1. First approach, assuming the parameters are known
 
-### Then, assuming the parameters are unknown
+We apply a simple SIR with $\alpha$=0.5, $\beta$=25, $\gamma$=8, V=5 et $W=1$ supposed known.
+![stocha-param_connus](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/c61e594c-379f-4cf4-9906-5412fec14a56)
+
+### 2.2. Then, assuming the parameters are unknown
+
+However, in real life, model parameters are usually unkonwn. That is why, whe should first, estimate them. 
+![SV_storvik](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/172931f6-f8e7-438b-a0da-80f0916e6774)
 
 ![estimation_par_SV](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/feb1269e-76c9-4c9c-bf2f-efcce9a7175f)
 
-### Comparaison between PLS, SIR and Storvik's filter
+### 2.3. Comparaison between PLS, SIR and Storvik's filter
 
 ![comparaison-PLS-SIR-STORVIK](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/6e573136-db0a-439f-9645-98915e31b394)
 
