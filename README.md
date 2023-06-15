@@ -11,7 +11,7 @@ Nous vous proposons d'étudier quelques méthodes SMC (principalement développ�
 
 ## 1. Technologies 
 
-Simple but not very effective : Python
+Simple but not very effective : Python, we would rather use C++, R or Julia.
 
 ## 2. Sereval examples 
 
