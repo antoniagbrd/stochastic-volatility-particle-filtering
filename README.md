@@ -29,7 +29,7 @@ We apply a simple SIR with $\alpha$=0.5, $\beta$=25, $\gamma$=8, V=5 et $W=1$ su
 
 ### 2.2. Then, assuming the parameters are unknown
 
-However, in real life, model parameters are usually unkonwn. That is why, whe should first, estimate them. 
+However, in real life, model parameters are usually unkonwn. That is why, whe should first, estimate them. We use the Storvik filter which estimates at the same time the hidden states and the model parameters.
 ![SV_storvik](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/172931f6-f8e7-438b-a0da-80f0916e6774)
 
 ![estimation_par_SV](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/feb1269e-76c9-4c9c-bf2f-efcce9a7175f)
