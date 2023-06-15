@@ -21,6 +21,6 @@ Avec, $\omega_{t} \sim \mathcal{N}(0,W)$
 $$ y_{t} = \frac{x^2_t}{20} + \nu_{t}$$
 Avec, $\nu_{t} \sim \mathcal{N}(0,V)$
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \mu \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 ### Sources
