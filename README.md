@@ -21,7 +21,7 @@ Avec, $\omega_t \sim \mathcal{N}(0,W)$
 $$y_t = \frac{x^2_t}{20} + \nu_t$$
 Avec, $\nu_t \sim \mathcal{N}(0,V)$
 
-### First approach, assuming the parameters are known
+### 2.1. First approach, assuming the parameters are known
 
 ### Then, assuming the parameters are unknown
 
