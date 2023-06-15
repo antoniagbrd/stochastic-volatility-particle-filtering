@@ -13,7 +13,7 @@ Nous vous proposons d'étudier quelques méthodes SMC (principalement développ�
 
 Simple but not very effective : Python, we would should have used C++, R or Julia.
 
-## 2. Sereval examples 
+## 2. Examples 
 
 We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $(X_t)_{t \in [0:T]}$ the hidden process, and $Y_{1:T}=\left(Y_1,...,Y_T\right)$ the observations, we write the Hidden Markov model as :
 
