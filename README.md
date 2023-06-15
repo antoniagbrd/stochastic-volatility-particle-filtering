@@ -14,7 +14,7 @@ Simple but not very effective : Python, we would should have used C++, R or Juli
 
 ## 2. Examples 
 
-We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $(X_t)_{t \in [0:T]}$ the hidden process, and $Y_{1:T}=\left( Y_1,...,Y_T \right)$ the observations, we write the Hidden Markov model as :
+We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $X_{1:T} = \left( X_1,...,X_T \right)$ the hidden process, and $Y_{1:T} = \left( Y_1,...,Y_T \right)$ the observations, we write the Hidden Markov model as :
 
 $$x_t = \alpha x_{t-1} + \beta \frac{x_{t-1}}{1+x^2_{t-1}} + \gamma \cos(1.2(t-1)) + \omega_t$$
 Avec, $\omega_t \sim \mathcal{N}(0,W)$
