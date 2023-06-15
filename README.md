@@ -40,43 +40,24 @@ However, in real life, model parameters are usually unkonwn. That is why, whe sh
 
 ### 3. Sources
 
-[1] S. GODSILL A. DOUCET et C. ANDRIEU. “On sequential Monte Carlo
-sampling methods for Bayesian filtering”. In : Statistics and Computing 10
-(1999), p. 197-208.
-[2]
-Lopes Carvalho Johannes et Polson. “Particle learning and smoothing”.
-In : Statistical Science 25 (2010), p. 88-106.
-[3]
-D. Crisan. “Exact rates of convergence for a branching particle approxi-
-mation to the solution of the zakai equation”. In : Annals of Probability 32
-(2003), p. 819-838.
-[4]
-D. Crisan et A. Doucet. “A survey of convergence results on particle filte-
-ring methods for practitioners”. In : IEEE Transactions on Signal Processing
-50 3 (2002), p. 736-746.
-[5]
-P. Del Moral D. Crisan et T. J. Lyons. “Interacting particle systems ap-
-proximations of the Kushner Stratonovitch equation, Advances in Applied
-Probability”. In : International Journal of Control (1999), p. 819-838.
-[6]
-J. E. Handschin et D. Q. Mayne. “Monte Carlo techniques to estimate the
-conditional expectation in multi-stage non-linear filtering”. In : International
-Journal of Control 9.5 (1969), p. 547-559.
-[7]
-J. S. Liu et R. Chen. “Sequential Monte Carlo methods for dynamic sys-
-tems”. In : J. Amer. Statist. Assoc. 93.443 (1998), p. 1032-1044.
-[8]
-P. Del Moral et L. Miclo. “Branching and interacting particle systems ap-
-proximations of Feynman-Kac formulae with applications to non-linear filte-
-ring”. In : Séminaire de Probabilités, Lecture Notes in Mathematics 1729.XXXIV
-(2000), p. 1-145.
-[9]
-D.J. Salmond N.J. Gordon et A.F.M. Smith. “Novel approach to nonlinear/non-
-Gaussian Bayesian state estimation”. In : IEE Proceedings F Radar and Si-
-gnal Processing 140 2 (1993).
-[10]
-D. B. Rubin. “MUsing the SIR algorithm to simulate posterior distributions,
-Bayesian Statistics”. In : Oxford University Press 3 (1988).
-[11]
-G. Storvik. “Particle Filters for State-Space Models With the Presence of
-Unknown Static Parameters”. In : IEEE 50.2 (2002).
+[1] S. GODSILL A. DOUCET et C. ANDRIEU. “On sequential Monte Carlo sampling methods for Bayesian filtering”. In : Statistics and Computing 10 (1999), p. 197-208.
+
+[2] Lopes Carvalho Johannes et Polson. “Particle learning and smoothing”. In : Statistical Science 25 (2010), p. 88-106.
+
+[3] D. Crisan. “Exact rates of convergence for a branching particle approxi- mation to the solution of the zakai equation”. In : Annals of Probability 32 (2003), p. 819-838.
+
+[4] D. Crisan et A. Doucet. “A survey of convergence results on particle filte- ring methods for practitioners”. In : IEEE Transactions on Signal Processing 50 3 (2002), p. 736-746.
+
+[5] P. Del Moral D. Crisan et T. J. Lyons. “Interacting particle systems ap- proximations of the Kushner Stratonovitch equation, Advances in Applied Probability”. In : International Journal of Control (1999), p. 819-838.
+
+[6] J. E. Handschin et D. Q. Mayne. “Monte Carlo techniques to estimate the conditional expectation in multi-stage non-linear filtering”. In : International Journal of Control 9.5 (1969), p. 547-559.
+
+[7] J. S. Liu et R. Chen. “Sequential Monte Carlo methods for dynamic sys- tems”. In : J. Amer. Statist. Assoc. 93.443 (1998), p. 1032-1044.
+
+[8] P. Del Moral et L. Miclo. “Branching and interacting particle systems ap- proximations of Feynman-Kac formulae with applications to non-linear filte- ring”. In : Séminaire de Probabilités, Lecture Notes in Mathematics 1729.XXXIV (2000), p. 1-145.
+
+[9] D.J. Salmond N.J. Gordon et A.F.M. Smith. “Novel approach to nonlinear/non- Gaussian Bayesian state estimation”. In : IEE Proceedings F Radar and Si- gnal Processing 140 2 (1993).
+
+[10] D. B. Rubin. “MUsing the SIR algorithm to simulate posterior distributions, Bayesian Statistics”. In : Oxford University Press 3 (1988).
+
+[11] G. Storvik. “Particle Filters for State-Space Models With the Presence of Unknown Static Parameters”. In : IEEE 50.2 (2002).
