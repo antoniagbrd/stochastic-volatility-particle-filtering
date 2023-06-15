@@ -11,7 +11,7 @@ Nous vous proposons d'étudier quelques méthodes SMC (principalement développ�
 
 ### Technologies 
 
-
+$a = b^2$
 ### Sereval examples 
 
 We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). There is a 
