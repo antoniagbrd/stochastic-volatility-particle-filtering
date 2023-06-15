@@ -13,7 +13,7 @@ Nous vous proposons d'étudier quelques méthodes SMC (principalement développ�
 
 ### Sereval examples 
 
-We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). There is a 
+We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$
 
 $$x_t = \alpha x_{t-1} + \beta \frac{x_{t-1}}{1+x^2_{t-1}} + \gamma \cos(1.2(t-1)) + \omega_t$$
 Avec, $\omega_t \sim \mathcal{N}(0,W)$
