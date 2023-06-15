@@ -6,6 +6,7 @@ We propose to study a number of SMC methods (mainly developed by Arnaud Doucet a
 1. [Technologies](#technologies)
 2. [Examples](#examples)
 3. [Sources](#sources)
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 
 ## 1. Technologies 
