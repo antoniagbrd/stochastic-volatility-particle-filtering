@@ -1,8 +1,7 @@
 # Stochastic Volatility with particle filtering
 
 ## Project Description
-Nous vous proposons d'étudier quelques méthodes SMC (principalement développés par Arnaud Doucet et Geir Storvik) : SIR, filre de Storvik and PLS.
-
+We propose to study a number of SMC methods (mainly developed by Arnaud Doucet and Geir Storvik): SIR, Storvik filter and PLS.
 **Table of contents**
 1. [Technologies](#technologies)
 2. [Examples](#examples)
