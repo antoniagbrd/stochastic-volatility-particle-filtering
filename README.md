@@ -38,7 +38,11 @@ In order to be more accurate, we can generate many random trajectories, and then
 
 ![estimation_par_SV](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/feb1269e-76c9-4c9c-bf2f-efcce9a7175f)
 
-### 2.3. Comparaison between PLS, SIR and Storvik's filter
+### 2.3. Comparaison between PLS, SIR and Storvik's filter on real life problem
+
+We use the S&P500 index from January 2008 to March 2009 : 
+![image](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/326387d6-a8a2-4f4b-9bab-67ffef3d1045)
+
 
 ![comparaison-PLS-SIR-STORVIK](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/6e573136-db0a-439f-9645-98915e31b394)
 
