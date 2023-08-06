@@ -11,7 +11,7 @@ Nonlinear non-Gaussian state-space models are ubiquitous in statistics, economet
 4. [Sources](#sources)
 
 
-## 1. Technologies 
+## 1. Programming language 
 
 Simple but not very effective : Python, we would should have used C++, R or Julia.
 
