@@ -4,15 +4,18 @@
 We propose to study a number of SMC methods (mainly developed by Arnaud Doucet and Geir Storvik): SIR, Storvik filter and PLS.
 **Table of contents**
 1. [Technologies](#technologies)
-2. [Examples](#examples)
-3. [Sources](#sources)
+2. [Sequential Monte Carlo Methods](#SMC)
+3. [Examples](#examples)
+4. [Sources](#sources)
 
 
 ## 1. Technologies 
 
 Simple but not very effective : Python, we would should have used C++, R or Julia.
 
-## 2. Examples 
+## 2. Sequential Monte Carlo Methods
+
+## 3. Examples 
 
 We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $X_{1:T} = \left( X_1,...,X_T \right)$ the hidden process, and $Y_{1:T} = \left( Y_1,...,Y_T \right)$ the observations, we write the Hidden Markov model as :
 
