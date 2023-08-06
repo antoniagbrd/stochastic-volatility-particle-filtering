@@ -22,7 +22,7 @@ State-space models, also known as hidden Markov models (HMMs), are a very popula
 
 ## 3. Examples 
 
-We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $X_{1:T} = \left( X_1,...,X_T \right)$ the hidden process, and $Y_{1:T} = \left( Y_1,...,Y_T \right)$ the observations, we write the Hidden Markov model as :
+We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $X_{1:T} = \left( X_1,...,X_T \right)$ the hidden process, and $\left( Y_1,...,Y_T \right) \mapsto Y_{1:T} = \left( Y_1,...,Y_T \right)$ the observations, we write the Hidden Markov model as :
 
 $$x_{t} = \alpha + \beta x_{t-1}+\omega_{t}$$
 Avec, $\omega_t \sim \mathcal{N}(0,W)$
