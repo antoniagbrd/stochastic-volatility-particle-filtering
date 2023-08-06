@@ -4,6 +4,8 @@
 
 Nonlinear non-Gaussian state-space models are ubiquitous in statistics, econometrics, information engineering and signal processing. Particle methods, also known as Sequential Monte Carlo (SMC) methods, provide reliable numerical approximations to the associated state inference problems. However, in most applications, the state-space model of interest also depends on unknown static parameters that need to be estimated from the data. In this context, standard particle methods fail and it is necessary to rely on more sophisticated algorithms. The aim of this paper is to present a comprehensive review of particle methods that have been proposed to perform static parameter estimation in state-space models (Storvik's filter and PLS) applied to financial volatility. 
 
+We don't explain further more the sereval SMC methods, you can read the full paper if needed. 
+
 **Table of contents**
 1. [Technologies](#technologies)
 2. [Sequential Monte Carlo Methods](#SMC)
