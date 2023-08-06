@@ -1,7 +1,9 @@
 # Stochastic Volatility with particle filtering
 
 ## Project Description
-We propose to study a number of SMC methods (mainly developed by Arnaud Doucet and Geir Storvik): SIR, Storvik filter and PLS.
+
+Nonlinear non-Gaussian state-space models are ubiquitous in statistics, econometrics, information engineering and signal processing. Particle methods, also known as Sequential Monte Carlo (SMC) methods, provide reliable numerical approximations to the associated state inference problems. However, in most applications, the state-space model of interest also depends on unknown static parameters that need to be estimated from the data. In this context, standard particle methods fail and it is necessary to rely on more sophisticated algorithms. The aim of this paper is to present a comprehensive review of particle methods that have been proposed to perform static parameter estimation in state-space models (Storvik's filter and PLS). 
+
 **Table of contents**
 1. [Technologies](#technologies)
 2. [Sequential Monte Carlo Methods](#SMC)
@@ -14,6 +16,9 @@ We propose to study a number of SMC methods (mainly developed by Arnaud Doucet a
 Simple but not very effective : Python, we would should have used C++, R or Julia.
 
 ## 2. Sequential Monte Carlo Methods
+
+State-space models, also known as hidden Markov models (HMMs), are a very popular class of time series models. Loosely speaking a HMM is a bivariate stochastic processes ${X_n}_{n \ge 0}$ and {Yn}n≥0, where {Xn}n≥0 is the hidden component and {Yn}n≥0 is the sequence of observations.
+
 
 ## 3. Examples 
 
