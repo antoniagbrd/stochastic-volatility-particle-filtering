@@ -17,7 +17,7 @@ Simple but not very effective : Python, we would should have used C++, R or Juli
 
 ## 2. Sequential Monte Carlo Methods
 
-State-space models, also known as hidden Markov models (HMMs), are a very popular class of time series models. Loosely speaking a HMM is a bivariate stochastic processes ${(X_n)}_{n \ge 0}$ and ${(Y_n)}_{n \ge 0}$, where ${(X_n)}_{n \ge 0}$ is the hidden component and ${(Y_n)}_{n \ge 0}$ is the sequence of observations.
+State-space models, also known as hidden Markov models (HMMs), are a very popular class of time series models. Loosely speaking a HMM is a bivariate stochastic processes ${\left(X_n \right)}_{n \ge 0}$ and ${\left(Y_n\right)}_{n \ge 0}$, where ${\left(X_n\right)}_{n \ge 0}$ is the hidden component and ${\left(Y_n\right)}_{n \ge 0}$ is the sequence of observations.
 
 
 ## 3. Examples 
