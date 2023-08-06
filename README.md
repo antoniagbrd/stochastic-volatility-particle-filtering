@@ -20,7 +20,7 @@ Simple but not very effective : Python, we would should have used C++, R or Juli
 State-space models, also known as hidden Markov models (HMMs), are a very popular class of time series models : HMM is a bivariate stochastic processes $(X_n)_n$ and $(Y_n)_n$, where $(X_n)$  is the hidden component and $(Y_n)$  is the sequence of observations. HMM models may contain unkonwn parameters therefore, SMC methods will at the same time estimate the parameters of our models and the hidden component $X_n$. Applications of state-space models include stochastic volatility models where $X_n$ is the volatility of an asset and $Y_n$ its observed log-return. SMC methods consist in building an estimator $\left( Y_1,...,Y_T \right) \mapsto h \left( Y_1,...,Y_T \right)$. For a computationnal worry, the estimator should be easy to update at time after $T$.
 
 
-## 3. Examples 
+## 3. Benchmark model : the Stochastic Volatility model 
 
 We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $X_{1:T} = \left( X_1,...,X_T \right)$ the hidden process, and $Y_{1:T} = \left( Y_1,...,Y_T \right)$ the observations, we write the Hidden Markov model as :
 
@@ -46,13 +46,17 @@ In order to be more accurate, we can generate many random trajectories, and then
 
 ![estimation_par_SV](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/feb1269e-76c9-4c9c-bf2f-efcce9a7175f)
 
-### 2.3. Comparaison between PLS, SIR and Storvik's filter on real life problem
+### 2.3. Comparaison between PLS, SIR and Storvik's filter on SV benchmark model
+
+![comparaison-PLS-SIR-STORVIK](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/6e573136-db0a-439f-9645-98915e31b394)
+
+### 2.4. Comparaison between PLS, SIR and Storvik's filter on real life problem
 
 We use the S&P500 index from January 2008 to March 2009 : 
 ![Capture](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/79136f30-3d84-4607-b4a6-8830c75d5453)
 
 
-![comparaison-PLS-SIR-STORVIK](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/6e573136-db0a-439f-9645-98915e31b394)
+
 
 ### 3. Sources
 
