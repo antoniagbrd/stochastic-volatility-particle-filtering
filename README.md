@@ -1,4 +1,4 @@
-[to be finished]
+*the README is still being written*
 
 # Stochastic Volatility with particle filtering
 
