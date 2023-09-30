@@ -4,7 +4,7 @@
 
 ## Project Description
 
-Nonlinear non-Gaussian state-space models are ubiquitous in statistics, econometrics, information engineering and signal processing. Particle methods, also known as Sequential Monte Carlo (SMC) methods, provide reliable numerical approximations to the associated state inference problems. However, in most applications, the state-space model of interest also depends on unknown static parameters that need to be estimated from the data. In this context, standard particle methods fail and it is necessary to rely on more sophisticated algorithms. The aim of this paper is to present a comprehensive review of particle methods (with a focus on the Storvik's filter and the PLS) that have been proposed to perform static parameter estimation in state-space models applied to financial volatility. 
+Nonlinear non-Gaussian state-space models are ubiquitous in statistics, econometrics, information engineering and signal processing. Particle methods, also known as Sequential Monte Carlo (SMC) methods, provide reliable numerical approximations to the associated state inference problems. However, in most applications, the state-space model of interest also depends on unknown static parameters that need to be estimated from the data. In this context, standard particle methods fail and it is necessary to rely on more sophisticated algorithms. The aim of this paper is to present a comprehensive review of particle methods (with a focus on the Storvik's filter) that have been proposed to perform static parameter estimation in state-space models applied to financial volatility. 
 
 We don't explain further more the sereval SMC methods, you can read the full paper if needed. 
 
@@ -26,7 +26,7 @@ State-space models, also known as hidden Markov models (HMMs), are a very popula
 
 ## 3. Benchmark model : the Stochastic Volatility model 
 
-We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochstic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $X_{1:T} = \left( X_1,...,X_T \right)$ the hidden process, and $Y_{1:T} = \left( Y_1,...,Y_T \right)$ the observations, we write the Hidden Markov model as :
+We have discussed about three benchmark models : a linear model, the Kitagawa's model and the stochastic volatility model (SV). Here, we will only present the SV model. Let $T \in \mathbb{R}$, for instance $T=100$, and $X_{1:T} = \left( X_1,...,X_T \right)$ the hidden process, and $Y_{1:T} = \left( Y_1,...,Y_T \right)$ the observations, we write the Hidden Markov model as :
 
 $$x_{t} = \alpha + \beta x_{t-1}+\omega_{t}$$
 Avec, $\omega_t \sim \mathcal{N}(0,W)$
