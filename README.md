@@ -54,7 +54,7 @@ In order to be more accurate, we can generate many random trajectories, and then
 
 ![comparaison-PLS-SIR-STORVIK](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/6e573136-db0a-439f-9645-98915e31b394)
 
-![comparaison-STORVIK-and-DOUBLE-FILTER](![téléchargement](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/64112e2d-1e1a-477e-8efb-301b74c1f7d1)
+![comparaison-STORVIK-and-DOUBLE-FILTER](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/64112e2d-1e1a-477e-8efb-301b74c1f7d1)
 
 
 ### 2.4. Comparaison between PLS, SIR and Storvik's filter on real life problem
