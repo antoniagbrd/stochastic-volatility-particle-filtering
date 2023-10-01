@@ -54,6 +54,7 @@ In order to be more accurate, we can generate many random trajectories, and then
 
 ![comparaison-PLS-SIR-STORVIK](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/6e573136-db0a-439f-9645-98915e31b394)
 
+As you can see, the PLS and Storvik's filter don't provide accurate estimations of the hidden state, but, the SIR filter with the estimated parameters (from the Storvik's filter) gives nice results. Therefore, the Double Forward Filter (SIR filter with the parameters estimated with the Storvik's filter) is a nice method for estimating the stochastic volatility. 
 ![comparaison-STORVIK-and-DOUBLE-FILTER](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/64112e2d-1e1a-477e-8efb-301b74c1f7d1)
 
 
