@@ -36,7 +36,7 @@ Avec, $\nu_t \sim \mathcal{N}(0,V)$
 
 ### 2.1. First approach, assuming the parameters are known
 
-We apply a simple SIR with $\alpha$=0.5, $\beta$=25, $\gamma$=8, $V=5$ et $W=1$ supposed known.
+We apply a simple SIR with $\alpha$=0, $\beta$=0.97 and $W=1$ supposed known.
 
 ![stocha-param_connus](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/c61e594c-379f-4cf4-9906-5412fec14a56)
 
@@ -54,7 +54,8 @@ In order to be more accurate, we can generate many random trajectories, and then
 
 ![comparaison-PLS-SIR-STORVIK](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/6e573136-db0a-439f-9645-98915e31b394)
 
-As you can see, the PLS and Storvik's filter don't provide accurate estimations of the hidden state, but, the SIR filter with the estimated parameters (from the Storvik's filter) gives nice results. Therefore, the Double Forward Filter (SIR filter with the parameters estimated with the Storvik's filter) is a nice method for estimating the stochastic volatility. 
+As you can see, the PLS and Storvik's filter don't provide accurate estimations of the hidden state, but, the SIR filter with the estimated parameters (from the Storvik's filter) gives nice results. Therefore, the Double Forward Filter (SIR filter with the parameters estimated from the Storvik's filter) is a nice method for estimating the stochastic volatility. 
+
 ![comparaison-STORVIK-and-DOUBLE-FILTER](https://github.com/SarcasticMatrix/Stochastic-Volatility-with-particle-filtering/assets/94806199/64112e2d-1e1a-477e-8efb-301b74c1f7d1)
 
 
